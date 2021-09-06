@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "sls offline",
     "deploy": "sls deploy -v",
-    "dynamo:start": "sls dynamo start"
+    "dynamo:start": "sls dynamodb start"
   },
   "devDependencies": {
     "@serverless/typescript": "^2.23.0",
