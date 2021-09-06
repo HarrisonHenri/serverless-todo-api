@@ -20,6 +20,7 @@ export const handle = async (event) => {
       id: v4(),
       title,
       user_id,
+      done:false,
       deadline: new Date(deadline).toISOString()
     }
   }).promise();
